@@ -1,0 +1,13 @@
+degrees=input('Would you like to convert from degrees celsius to fahrenheit or vice versa:')
+if degrees == 'celcius to fahrenheit':
+    c=input('What is your tempature:')
+    c=float(c)
+    f=(c*1.8+32)
+    print('Your tempature is',f,'degrees fahrenheit')
+elif degrees == 'fahrenheit to celcius':
+    f=input('What is your tempature:')
+    f=float(f)
+    c=((f-32)*1.8)
+    print('Your tempature is',c,'degrees celcius')
+else:
+    print('Incorrect')

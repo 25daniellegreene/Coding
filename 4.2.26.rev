@@ -1,0 +1,14 @@
+year=input('Enter the year,in digits:')
+year=int(year)
+month=input('Enter the month,in digits:')
+month=int(month)
+day=input('Enter the day,in digits:')
+day=int(day)
+if year > 0:
+    if month >= 1:
+        if month < 13:
+            if day >=1:
+                if day <= 31:
+                    print('Valid year')
+else:
+    print('Invalid year')
