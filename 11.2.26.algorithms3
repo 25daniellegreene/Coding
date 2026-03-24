@@ -1,0 +1,8 @@
+a=input('Enter age:')
+a=int(a)
+if a >= 18:
+    print('eligible for role')
+else:
+    print('Not eligible')
+
+    

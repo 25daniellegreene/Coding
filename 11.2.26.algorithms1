@@ -1,0 +1,8 @@
+p=input('Enter principle:')
+p=float(p)
+n=input('Enter time in years:')
+n=float(n)
+r=input('Enter interest rate:')
+r=float(r)
+si=(p*n*r)/100.0
+print('Simple interest:',si)

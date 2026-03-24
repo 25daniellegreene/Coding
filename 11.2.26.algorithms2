@@ -1,0 +1,8 @@
+num1=input('Enter number 1:')
+num1=float(num1)
+num2=input('Enter number 2:')
+num2=float(num2)
+if num1 < num2:
+    print('Smallest is number 1')
+else:
+    print('Smallest is number 2')

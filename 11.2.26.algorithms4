@@ -1,0 +1,20 @@
+length=input('Are the sides of equal length:')
+angle=input('Are all angles 90 degrees:')
+if length == 'yes':
+    if angle == 'yes':
+       print('Shape is a square')
+    elif angle == 'no':
+        print('Shape is a rhombus')
+    else:
+        print('incorrect')
+elif length == 'no':
+    if angle == 'yes':
+        print('Shape is a rectangle')
+    elif angle == 'no':
+        print('Shape is a parallelogram')   
+    else:
+        print('incorrect')
+else:
+    print('Irregular')
+    
+       

@@ -1,0 +1,28 @@
+ab=input('Enter side of shape:')
+ab=float(ab)
+bc=input('Enter other side of shape')
+bc=float(bc)
+cd=input('Enter other side of shape')
+cd=float(cd)
+da=input('Enter other side of shape')
+da=float(da)
+i=input('Enter internal angle')
+i=float(i)
+if ab == bc:
+    if ab == cd:
+        if bc == da:
+            if i == 90:
+                print('Its a square')
+            else:
+                print('Its a rhombus')
+        else:
+            print('Its an irregular quadrilateral')
+    else:
+        print('Its an irregular quadrilateral')
+else:
+    if ab == cd:
+        if bc == da:
+           if i == 90:
+               print('Its a rectangle')
+           else:
+    
