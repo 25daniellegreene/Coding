@@ -1,0 +1,10 @@
+age=input('Enter your age:')
+age=int(age)
+if age >= 18:
+    car=input('Do you have a license:')
+    if car == 'yes':
+        print('You can rent a car')
+    else:
+        print('You cannot rent a car')
+else:
+    print('you cannot rent a car')

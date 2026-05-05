@@ -1,0 +1,15 @@
+colour=input('Enter colour of an item:')
+if colour ==  'red':
+    x=input('Is it  a fruit:')
+    if x == 'yes':
+        print('It could be an apple or tomato')
+    else:
+        print('It could be a rose')
+elif colour == 'yellow':
+       y=input('Is it  a fruit:')
+       if y == 'yes':
+            print('It could be a banana')
+       else:
+            print('It could be corn or a marigold')
+else:
+    print('Cannot assist identifying the item')

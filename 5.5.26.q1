@@ -1,0 +1,7 @@
+day=input('Enter the amount of days in February:')
+day=int(day)
+if day == 29:
+    print('It is a leap year')
+else:
+    print('It is not a leap year')
+    

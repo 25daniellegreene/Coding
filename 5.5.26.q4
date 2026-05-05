@@ -1,0 +1,12 @@
+age=input('Enter your age:')
+age=int(age)
+if age < 12:
+    print('Fare is 2 euro')
+elif age >= 65:
+    card=input('do you have a travel card:')
+    if card == 'yes':
+        print('There is no fare')
+    else:
+        print('Fare is 3 euro')
+else:
+    print('Fare is 5 euro')
