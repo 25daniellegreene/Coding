@@ -1,0 +1,18 @@
+# import the library for micropython
+import machine
+# import the library for time
+import time
+#create a variable for an orange LED
+orangeLED = machine.Pin(0,machine.Pin.OUT)
+#run a forever loop
+while True:
+    #print an LED on message
+    print('LED is on for 5 seconds')
+    #turn on LED
+    orangeLED.value(1)
+    #pause the program for five seconds
+    time.sleep_ms(5000)
+    #turn off the LED
+    orangeLED.value(0)
+    #pause the program for another 5 seconds
+    time.sleep_ms(5000)
