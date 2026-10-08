@@ -1,0 +1,14 @@
+num=input('Enter an integer:')
+num=int(num)
+if num == 100:
+    print('Number is equal to 100')
+if num > 100:
+    print('Number is greater than 100')
+if num < 100:
+    print('Number is less than 100')
+if num >= 100:
+    print('Number is equal to or greater than 100')
+if num <= 100:
+    print('Number is equal to or less than 100')
+if num != 100:
+    print('Number is not equal to 100')
