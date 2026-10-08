@@ -1,0 +1,6 @@
+sales=input('Enter sales total for the month:')
+sales=float(sales)
+if sales > 40000:
+    bonus=(sales*1.15)
+    print('Bonus earned:',bonus)
+print('End program')
