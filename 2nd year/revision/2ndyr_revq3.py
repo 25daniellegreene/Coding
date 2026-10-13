@@ -1,0 +1,7 @@
+sen=input('Enter a sentence:')
+vowel=('a','e','i','o','u')
+y=0
+for x in sen:
+    if x in vowel :
+        y = y+1
+print('Number of vowels is:',y)
