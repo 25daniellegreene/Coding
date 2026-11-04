@@ -1,0 +1,8 @@
+totalmarks=input('Enter total marks:')
+totalmarks=float(totalmarks)
+marksobtained=input('Enter marks obtained:')
+marksobtained=float(marksobtained)
+result=((marksobtained/totalmarks)*100)
+print('Total marks:',totalmarks)
+print('Marks obtained:',marksobtained)
+print('Result:',result,'%')

@@ -1,0 +1,16 @@
+season=input('Enter the season:')
+chry=input('Enter amount of chrysanthemums you would like:')
+chry=int(chry)
+rose=input('Enter amount of roses you would like:')
+rose=int(rose)
+tulip=input('Enter amount of tulips you would like:')
+tulip=int(tulip)
+if season == 'spring' or 'summer':
+    chryprice=(chry*2)
+    roseprice=(rose*4.1)
+    tulipprice=(tulip*2.5)
+elif season == 'autumn' or 'winter':
+    chryprice=(chry*3.75)
+    roseprice=(rose*4.5)
+    tulipprice=(tulip*4.15)
+print('Total price is:',chryprice+roseprice+tulipprice+2)
